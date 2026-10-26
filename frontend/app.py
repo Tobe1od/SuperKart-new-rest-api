@@ -8,7 +8,7 @@ st.title("Superkart Predictor") #Complete the code to define the title of the ap
 Product_Weight = st.number_input("Product Weight", min_value=0.0, value=22.00)
 Product_Sugar_Content = st.selectbox("Product Sugar Content", ["Low Sugar", "Regular", "No Sugar"])
 Product_Allocated_Area = st.number_input("Product Allocated Area", min_value=0.0, value=0.298) #Complete the code to define the UI element for Product_Allocated_Area
-Product_MRP = st.number_input("Product Mean Retail Price", min_value=0.0, value=266) #Complete the code to define the UI element for Product_MRP
+Product_MRP = st.number_input("Product Mean Retail Price", min_value=0.0, value=266.0) #Complete the code to define the UI element for Product_MRP
 Store_Size = st.selectbox("Store Size", ["High", "Medium", "Small"]) #Complete the code to define the UI element for Store_Size
 Store_Location_City_Type = st.selectbox("Store Location City Type", ["Tier 1", "Tier 2", "Tier 3"]) #Complete the code to define the UI element for Store_Location_City_Type
 Store_Type = st.selectbox("Store Type", ["Supermarket Type1", "Supermarket Type2", "Departmental Store", "Food Mart"]) #Complete the code to define the UI element for Store_Type
